@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import UserList from "./components/UserList";
-import UserDetails from "./components/UserDetail";
-import AlbumList from "./components/AlbumList";
-import AlbumDetails from "./components/AlbumDetail";
-import NotFound from "./components/NotFound";
+import Navbar from "@components/Navbar";
+import UserList from "@components/UserList";
+import UserDetails from "@components/UserDetail";
+import AlbumList from "@components/AlbumList";
+import AlbumDetails from "@components/AlbumDetail";
+import NotFound from "@components/NotFound";
 
 const App = () => {
   return (
